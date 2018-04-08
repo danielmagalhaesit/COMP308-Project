@@ -1,0 +1,25 @@
+<nav>
+  <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li>
+        <a>Patients</a>
+      </li>
+      <li>
+        <a>Components</a>
+      </li>
+      </ul>
+      <!-- Right menu-->
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a routerLinkActive="active" [routerLink]="['/auth/signin']" >Register</a>
+        </li>
+        <li>
+          <a routerLinkActive="active" [routerLink]="['/auth/login']" >Login</a>
+        </li>
+        <li>
+          <a>Logout</a>
+        </li>
+      </ul>
+  </div>
+</nav>
